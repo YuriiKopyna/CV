@@ -27,33 +27,7 @@ hr {
     font-size: 1.5em;
     margin-top: 10px;
 }
-#top-link {
-    background-color: #fff;
-    display: block;
-    width: 100%;
-    height: 80px;
-    bottom: 0px;
-    position: absolute;
-    color: rgb(0, 0, 0);
-}
-nav#top-link {
-    background-color: rgba(255, 255, 255, 0.23)!important;
-}
-.navbar-light a.navbar-brand {
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-#navbar-main {
-    padding: 0;
-    margin: 0;
-}
-#navbar-main-name {
-    padding: 0;
-    margin: 0;
-}
+
 #profile {
     text-align: center;
 }
@@ -91,17 +65,17 @@ nav#top-link {
     height: auto;
 }
 #experiences {
-	text-align: center;
-	background: rgba(239, 250, 177, 0.41);
+    text-align: center;
+    background: rgba(239, 250, 177, 0.41);
 }
 #navigation-names-parent {
-	text-align: center;
+    text-align: center;
 }
 #abilities article {
-	text-align: left;
+    text-align: left;
 }
 #abilities article #navigation-names-secondary {
-	margin: 20px;
+    margin: 20px;
 }
 #projects-images {
     max-width: 100%;
@@ -113,9 +87,18 @@ nav#top-link {
     #top-name {
         padding-top: 60%;
     }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
 }
 @media (max-width: 991.98px) {
-
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
 }
 @media (max-width: 1199.98px) {
 
