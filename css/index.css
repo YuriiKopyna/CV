@@ -16,10 +16,9 @@ hr {
     margin: auto;
     display: inline-block;
     color: #fff;
-    padding-top: 60%;
+    padding-top: 20%;
     font-size: 3em;
     font-weight: 700;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.43137254901960786);
     padding-bottom: 8px;
     }
 #top-resume {
@@ -29,11 +28,23 @@ hr {
     margin-top: 10px;
 }
 #top-link {
+    background-color: #fff;
     display: block;
     width: 100%;
     height: 80px;
     bottom: 0px;
     position: absolute;
+    color: rgb(0, 0, 0);
+}
+nav#top-link {
+    background-color: rgba(255, 255, 255, 0.23)!important;
+}
+.navbar-light a.navbar-brand {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 #navbar-main {
     padding: 0;
@@ -91,12 +102,17 @@ hr {
 }
 #abilities article #navigation-names-secondary {
 	margin: 20px;
+}
+#projects-images {
+    max-width: 100%;
 }    
 @media only screen and (orientation: portrait) and (max-width: 575.98px) { 
 
 }
 @media (max-width: 767.98px) {
-
+    #top-name {
+        padding-top: 60%;
+    }
 }
 @media (max-width: 991.98px) {
 
